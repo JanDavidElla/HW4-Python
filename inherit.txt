@@ -1,0 +1,6 @@
+1. We use inheritance so that we can easily reuse code. This leaves the user
+doing less work when there are classes that essentially have the same function.
+
+2. We use inheritance to reduce duplication. Instead of writing the same code, 
+you can just inherit the behaviors of the parent class. Because of this, there 
+is less repetition in the code.

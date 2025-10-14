@@ -1,0 +1,6 @@
+1. 'increment_int_a' does NOT change the variable after the function call
+2. 'increment_int_b' does change the variable after the function call
+3. These answers differ because in integer variables in Python are immutable. This
+means they cannot be modified. When some operation is done, it creates a new integer object.
+In this case, the new number is assigned locally to someval. In 'increment_int_b', dictionaries are
+mutable, meaning they can be modified, so it works as expected in this case.
